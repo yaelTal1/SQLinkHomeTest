@@ -1,0 +1,11 @@
+.table {
+    width: 50%;
+}
+
+.lowScore {
+    background-color: red;
+}
+
+.highScore {
+    background-color: green;
+}

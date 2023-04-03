@@ -1,0 +1,9 @@
+.app-container {
+    min-height: 320px;
+    overflow: hidden;
+}
+
+body {
+    direction: rtl;
+    margin: 4rem;
+}

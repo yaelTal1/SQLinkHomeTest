@@ -1,0 +1,16 @@
+<div *ngIf="user">
+  <nav class="navbar navbar-expand navbar-dark bg-dark px-3">
+    <div class="navbar-nav">
+      <button class="btn btn-link nav-item nav-link" (click)="showDetails=!showDetails; showProjects=!showProjects">פרטים אישיים</button>
+      <button class="btn btn-link nav-item nav-link" (click)="showProjects=!showProjects; showDetails=!showDetails">פרויקטים</button>
+    </div>
+  </nav>
+
+  <div *ngIf="showDetails">
+    <app-user-details [user]="user"></app-user-details>
+  </div>
+
+  <div *ngIf="showProjects">
+    <app-projects></app-projects>
+  </div>
+</div>

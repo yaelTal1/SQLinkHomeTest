@@ -1,0 +1,18 @@
+<div class="card">
+  <h4 class="card-header">פרטים אישיים</h4>
+  <div class="card-body">
+    <div class="mb-3">
+      <label class="form-label">שם פרטי:</label>
+      <div>{{userDetails[0].personalDetails.name}}</div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">צוות:</label>
+      <div>{{userDetails[0].personalDetails.team}}</div>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">תאריך הצטרפות:</label>
+      <div>{{userDetails[0].personalDetails.joinedAt}}</div>
+  </div>
+    <span *ngIf="!user" class="spinner-border spinner-border-sm me-1"></span>
+  </div>
+</div>

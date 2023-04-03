@@ -1,0 +1,40 @@
+<h1>פרויקטים:</h1>
+<div class="form-group">
+  <!-- <input type="text" class="form-control" placeholder="חיפוש...." [(ngModel)]="term" (ngModelChange)="changeFilter($event)"> -->
+  <input [(ngModel)]="listFilter" type="text" class="form-control" id="filterInput" placeholder="חיפוש...">
+</div>
+
+
+<div class="form-group">
+  <span>אחוז הפרוייקטים שעמדו בדדליין הוא: {{deadlinePercent}} % </span>
+</div>
+<div class="form-group">
+  <span>הציון הממוצע הוא: {{scoresAverage}}  </span>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th (click)="sort('name')" style="width: 30%; cursor: pointer;">שם הפרויקט</th>
+            <th (click)="sort('score')" style="width: 10%; cursor: pointer;">ציון</th>
+            <th (click)="sort('durationInDays')" style="width: 10%; cursor: pointer;">משך ימים </th>
+            <th (click)="sort('bugsCount')" style="width: 10%; cursor: pointer;">כמות טעויות</th>
+            <th (click)="sort('madeDadeline')" style="width: 10%; cursor: pointer;">עמידה בדד ליין</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let project of filtereProjects" [ngClass]="{'lowScore': project.score < 70,  'highScore': project.score > 90}">
+            <td>{{project.name}}</td>
+            <td>{{project.score}}</td>
+            <td>{{project.durationInDays}}</td>
+            <td>{{project.bugsCount}}</td>
+            <td *ngIf="project.madeDadeline">עמד בזמן </td>
+            <td *ngIf="!project.madeDadeline">לא עמד בזמן </td>
+        </tr>
+        <tr *ngIf="!projects">
+            <td colspan="4" class="text-center">
+                <span class="spinner-border spinner-border-lg align-center"></span>
+            </td>
+        </tr>
+    </tbody>
+</table>
