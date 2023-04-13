@@ -1,0 +1,6 @@
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\DAL\bin\Debug\DAL.dll
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\DAL\bin\Debug\DAL.pdb
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\DAL\obj\Debug\DAL.dll
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\DAL\obj\Debug\DAL.pdb

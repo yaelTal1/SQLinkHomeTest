@@ -1,0 +1,17 @@
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\bin\Debug\netcoreapp2.1\HomeTest.deps.json
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\bin\Debug\netcoreapp2.1\HomeTest.runtimeconfig.json
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\bin\Debug\netcoreapp2.1\HomeTest.runtimeconfig.dev.json
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\bin\Debug\netcoreapp2.1\HomeTest.dll
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\bin\Debug\netcoreapp2.1\HomeTest.pdb
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.csprojAssemblyReference.cache
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.csproj.CoreCompileInputs.cache
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.RazorAssemblyInfo.cache
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.RazorAssemblyInfo.cs
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.AssemblyInfoInputs.cache
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.AssemblyInfo.cs
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.RazorTargetAssemblyInfo.cache
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.dll
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.pdb
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\bin\Debug\netcoreapp2.1\DAL.dll
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\bin\Debug\netcoreapp2.1\DAL.pdb
+C:\Users\Yael\Desktop\SQLinkTest\HomeTest\HomeTest\obj\Debug\netcoreapp2.1\HomeTest.csproj.CopyComplete
